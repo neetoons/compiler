@@ -6,8 +6,8 @@ stdenv.mkDerivation rec {
 
   src = fetchgit {
     url = "https://github.com/neetoons/compiler";
-    rev = "134ad7a836c581546665340aedb59efd4636e269";
-    sha256 = "sha256-ls7LOiWXyJ8DrwT4VXB2XQKlWx7+35BrLHfiH6wqT+Y=";
+    rev = "c32c1cb20ac391e2f2d937a7d7be912b469af322";
+    sha256 = "sha256-r3R7HYDntkdnkVXC5hL27wUyOeStIwtLoFJn+WrADLE=";
   };
 
   buildInputs = [

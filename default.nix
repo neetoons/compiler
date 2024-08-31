@@ -1,7 +1,7 @@
 {
   pkgs ? import (fetchTarball {
-    url = "https://github.com/neetoons/compiler/archive/134ad7a836c581546665340aedb59efd4636e269.zip";
-    sha256 = "a2f2788a451d94d6e9d3150f42b4bc5d004dd270148a01ef2bee1553013f9df8";
+    url = "https://github.com/neetoons/compiler/releases/download/3.10.10/compiler.tar.xz";
+    sha256 = "1a96fe43ead298b9263626546842c0bbc6214a522d25e9c1285ae6f8672342b0";
   }) {}
 }:
 
